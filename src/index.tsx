@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
 import { Application } from './app';
 
 const root = ReactDOM.createRoot(
@@ -12,5 +11,3 @@ root.render(
     <Application />
   </React.StrictMode>,
 );
-
-reportWebVitals();
