@@ -15,7 +15,7 @@ export const WelcomeForm = observer(() => {
 
   return (
     <div className={styles.container}>
-      <Title className={styles.title}>Введите ваши данные</Title>
+      <Title className={styles.title}>Welcome form</Title>
       <form onSubmit={formSubmitHandler} className={styles.form}>
         <TextField
           required
