@@ -2,6 +2,7 @@
   "name": "blackrocksouth-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shiyan7.github.io/blackrocksouth-test/",
   "dependencies": {
     "clsx": "^2.1.0",
     "mobx": "^6.12.3",
@@ -22,6 +23,7 @@
     "customize-cra": "^1.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-unused-imports": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "react-app-rewired": "^2.2.1",
     "react-scripts": "5.0.1",
@@ -33,7 +35,9 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "lint": "eslint .",
-    "format": "prettier ./.prettierrc.js --write ./src"
+    "format": "prettier ./.prettierrc.js --write ./src",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
