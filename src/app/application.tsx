@@ -1,3 +1,5 @@
+import { WelcomeForm } from "@/widgets/welcome-form";
+
 export const Application = () => {
-  return <div>Application</div>;
+  return <WelcomeForm />;
 };
